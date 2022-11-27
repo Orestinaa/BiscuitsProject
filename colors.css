@@ -1,0 +1,50 @@
+.primary-text-color{
+    color: #CAA892;
+}
+
+.secondary-text-color{
+    color: #F8F8F8;
+}
+
+.terthiary-text-color{
+    color: #646464;
+}
+
+.black-text-color{
+    color: #000000;
+}
+
+.white-text-color{
+    color: #FFFFFF;
+}
+
+.primary-background-color{
+    background-color: #CAA892;
+}
+
+.secondary-background-color{
+    background-color: #F8F8F8;
+}
+
+.terthiary-background-color{
+    background-color: #646464;
+}
+
+.black-background-color{
+    background-color: #000000;
+}
+
+.white-background-color{
+    background-color: #FFFFFF;
+}
+
+
+
+:root{
+    --primary-text-color: #CAA892;
+    --secondary-text-color: #F8F8F8;
+    --terthiary-text-color: #646464;
+    --primary-background-color: #CAA892;
+    --secondary-background-color: #F8F8F8;
+    --terthiary-background-color: #646464;
+}

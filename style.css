@@ -1,0 +1,71 @@
+.space-gap{
+    padding: 70px 0px;
+}
+
+.space-gap-txt{
+    padding-top: 30px;
+}
+
+.space-gap-bottom{
+    padding-bottom: 30px;
+}
+
+h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #646464;
+}
+
+h1{
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 72px !important;
+    line-height: 78px !important;
+    /* or 108% */
+
+
+    color: #212121 !important;
+}
+
+.white-p-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+
+    color: #646464;
+}
+
+.rounded-img{
+    border-radius: 70px 0px;
+    /* padding-bottom: 20px;
+    padding-right: 20px;    
+    border: 2px solid #CAA892; */
+    box-shadow: rgb(255, 255, 255) 20px 20px 0px -2px, #CAA892 20px 20px;
+}
+
+@media (max-width: 577px) 
+{
+    .rounded-img{
+        border-radius: 70px 0px;
+        /* padding-bottom: 20px;
+        padding-right: 20px;    
+        border: 2px solid #CAA892; */
+        box-shadow: rgb(255, 255, 255) 20px 20px;
+    }
+}
+
+.signature{
+    width: 40%;
+    transform: rotate(-9.4deg);
+    margin-left: 25%;
+}
+

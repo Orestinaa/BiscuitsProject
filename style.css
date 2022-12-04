@@ -11,13 +11,15 @@
 }
 
 h4{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-
-    color: #646464;
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    
+    letter-spacing: -0.01em !important;
+    
+    color: #646464 !important;
 }
 
 h1{
@@ -69,3 +71,93 @@ h1{
     margin-left: 25%;
 }
 
+h2 {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 48px !important;
+    line-height: 78px !important;
+    color: #212121 !important;
+    margin-bottom: 30px !important;
+    font-weight: bold !important;
+    position: relative;
+    top: -10px;
+}
+
+section:nth-child(1){
+    margin-top: 0px;
+}
+
+section:nth-child(2){
+    margin-top: 0px;
+}
+
+section {
+    margin-top: 45px;
+}
+
+.my-card{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+    border-radius: 60px 0px;
+    padding: 15px;
+    margin-right: 165px;
+}
+
+.my-card:nth-child(3){
+    margin-right: 0px;
+}
+
+@media (max-width: 1399px) 
+{
+    .my-card{
+        margin-right: 142px;
+    }
+}
+
+@media (max-width: 1200px){
+    .my-card{
+        margin-bottom: 75px;
+    }
+}
+
+.my-card-brown{
+    background: #CAA892;
+}
+
+.white-txt-color{
+    color: white;
+}
+
+.icon{
+    width: 50px;
+    margin: 0% 25%;
+}
+
+.icon2{
+    width: 75px;
+    margin: 0% 25%; 
+}
+
+@media (max-width: 767px) 
+{
+    .icon{
+        margin: 0% 2%;
+    }
+}
+
+.my-card-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 78px; */
+}
+
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

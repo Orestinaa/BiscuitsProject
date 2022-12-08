@@ -182,3 +182,115 @@ img {
     font-weight: 800;
     -webkit-font-smoothing: antialiased;
 }
+
+#negozio{
+    padding-top: 150px;
+}
+
+.image-shop{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
+}
+
+.shop-card{
+    position: relative;
+    background: var(--white-background-color);
+    box-shadow: 0px 8px 20px var(--black-background-color);
+    border-radius: 60px 0px;
+    min-width: 190px;
+    max-width: 300px;
+}
+
+.text-shop-card{
+    bottom: 50px;
+    position: relative;
+}
+
+.align-signature-bottom{
+    position: relative;
+    display: block;
+    padding-top: 30%;
+    width: 60%;
+    left: -30px;
+
+}
+
+#negozio{
+    padding: 35px 0px;
+}
+
+@media (max-width: 767px) 
+{
+    .align-signature-bottom{
+        display: none;
+    }
+
+    .shop-card{
+        margin-bottom: 100px;
+    }
+}
+
+.price-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 65px;
+
+    letter-spacing: 0.04em;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+@media (max-width: 992px) 
+{
+    .price-text{
+        letter-spacing: 0.00em;
+    }
+}
+
+.canceled-price-text{
+    text-decoration: line-through;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    color: var(--terthiary-text-color);
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.buy-now{
+    display: block;
+    /* min-width: 200px; */
+    min-height: 50px;
+    background: var(--primary-background-color);
+    border-radius: 20px 0px;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 20%;
+    bottom: 50px;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white-text-color);
+
+    transition: all 0.7s;
+}
+
+.buy-now:hover{
+    background: var(--terthiary-background-color);
+}

@@ -308,3 +308,109 @@ body {
 .buy-now:hover{
     background: var(--terthiary-background-color);
 }
+
+.comment-card{
+    background: var(--white-background-color);
+    box-shadow: 7px 7px 30px 5px var(--black-text-color);
+    border-radius: 70px 0px;
+    margin-bottom: 60px;
+}
+
+.avatar-image{
+    width: 100px;
+    height: 90px;
+    border-radius: 40px 0px;
+    position: relative;
+    margin: auto 0;
+    right: 50px;
+}
+
+.name-comment{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    display: inline;
+    padding-left: 10px;
+
+    color: var(--black-text-color);
+
+}
+
+.role-comment{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: inline;
+
+    color: var(--terthiary-text-color);
+}
+
+.text-comment{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+    color: var(--terthiary-text-color);
+}
+
+.quote-text{
+    position:relative;
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 0px;
+
+
+    color: var(--primary-text-color);
+}
+
+@media (max-width: 1400px) 
+{
+    .quote-text{
+        right: 10px;
+    }
+    
+}
+
+@media (max-width: 1200px) 
+{
+    .quote-text{
+        right: 20px;
+    }
+    
+}
+
+@media (max-width: 992px) 
+{
+    .quote-text{
+        right: 40px;
+    }
+    
+}
+
+@media (max-width: 767px) 
+{
+    .quote-text{
+        display: none;
+    }
+
+    .avatar-image{
+        position: relative;
+        margin: 0 auto;
+        right: 0;
+        bottom: 20px;
+    }
+    
+}

@@ -34,6 +34,13 @@ h1{
     line-height: 78px !important;
 }
 
+@media (max-width: 373px) 
+{
+    h1 {
+        font-size: 55px !important;
+    }
+}
+
 .white-p-text{
     font-family: 'Open Sans';
     font-style: normal;
@@ -195,6 +202,13 @@ img {
     bottom: 50px;
 }
 
+@media (max-width: 373px) 
+{
+    .image-shop{
+        width: 90%
+    }
+}
+
 .shop-card{
     position: relative;
     background: var(--white-background-color);
@@ -267,7 +281,7 @@ img {
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .buy-now{

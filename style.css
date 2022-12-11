@@ -26,6 +26,10 @@ h4{
     color: var(--terthiary-text-color) !important;
 }
 
+.logo{
+    height: 56px;
+}
+
 h1{
     font-family: 'Poppins' !important;
     font-style: normal !important;
@@ -422,6 +426,8 @@ body {
     width: 70% !important;
     display: inline !important;
     height: 50px !important;
+    left: 30px !important;
+    position: relative;
 }
 
 [type="submit"]{
@@ -432,11 +438,16 @@ body {
     border-radius: 0px 0px 20px 0px !important;
     height: 50px !important;
     bottom: 2px;
-    right: 10px;
+    left: 25px !important;
     position: relative;
     font-weight: bold !important;
     text-align: center !important;
 }
+
+[type="submit"]:hover{
+    background: var(--terthiary-background-color) !important;
+}
+
 
 @media (max-width: 443px) 
 {
@@ -458,4 +469,45 @@ body {
         font-size: 10px !important;
         font-weight: normal !important;
     }
+}
+
+.logo-footer{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.footer{
+}
+
+@media (max-width: 363px) 
+{
+    .h2-responsive{
+        font-size: 40px !important;
+
+    }
+}
+
+.adjust-footer{
+    padding-top: 60px;
+    padding-bottom: 1px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
 }
